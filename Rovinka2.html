@@ -13105,7 +13105,12 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Rovinka Porovnanie 
+<pre>Making connection to database 10.20.7.200
+Working on query: 
+select  o.* from obs.obs_nmsko_1h o join si.si on si.id=o.si_id where ii=99801 and date &gt;= &#39;2020-01-01 00:00:00&#39; 
+Making connection to database 10.20.7.200
+Working on query: 
+select  o.* from obs.obs_nmsko_1h o join si.si on si.id=o.si_id where ii=99501 and date &gt;= &#39;2020-01-01 00:00:00&#39; 
 </pre>
 </div>
 </div>
@@ -13126,7 +13131,16 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>
+<pre>/data/juraj/anaconda/envs/supergeo/lib/python3.8/site-packages/numpy/lib/function_base.py:380: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/data/juraj/anaconda/envs/supergeo/lib/python3.8/site-packages/numpy/core/_methods.py:162: RuntimeWarning: invalid value encountered in true_divide
+  ret = um.true_divide(
+/data/juraj/anaconda/envs/supergeo/lib/python3.8/site-packages/numpy/lib/function_base.py:2551: RuntimeWarning: Degrees of freedom &lt;= 0 for slice
+  c = cov(x, y, rowvar)
+/data/juraj/anaconda/envs/supergeo/lib/python3.8/site-packages/numpy/lib/function_base.py:2480: RuntimeWarning: divide by zero encountered in true_divide
+  c *= np.true_divide(1, fact)
+/data/juraj/anaconda/envs/supergeo/lib/python3.8/site-packages/numpy/lib/function_base.py:2480: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
 </pre>
 </div>
 </div>
@@ -13284,6 +13298,7 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
+<pre>[&#39;PM10&#39;, &#39;PM2_5&#39;, &#39;SO2&#39;, &#39;NO&#39;, &#39;NO2&#39;, &#39;NOx&#39;, &#39;CO&#39;, &#39;BEN&#39;, &#39;O3&#39;]</pre>
 </div>
 
 </div>
