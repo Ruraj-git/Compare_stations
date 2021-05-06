@@ -1,4 +1,4 @@
-## porovnavacka rovinka
+## HTML pages
 
 You can use the [grafy](Rovinks_mob_vs_stat.html) to maintain and preview the content for your website in Markdown files.
 
